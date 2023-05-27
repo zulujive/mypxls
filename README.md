@@ -2,3 +2,15 @@
 
 ## PHP myPxls Admin
 This project is currently in early development and will be the next generation admin panel for Pxls.space instances and will be configured to work with Rust instances as well.
+
+## Goals
+- Making a proper API solution for Pxls.space instances
+- Easy migration from Pxls.space to Pxls Rust
+- User management through admin panel (unavailable on Pxls Admin)
+- Integrating administration of the new PxlsFiddle
+- Creating a way to contact users on the site
+- Allowing for head admins to edit configuration settings (cooldown, palette, etc.)
+- Adding a staff chat within the admin panel for mods to communicate
+- Adding various webhooks for Discord (staff chats, admin actions, etc.)
+- Adding a built-in ban appeal form for Pxls Rust
+- Not letting this project sit for years and being completely untouched (cough cough *Pxls Admin*
