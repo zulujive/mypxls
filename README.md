@@ -13,4 +13,4 @@ This project is currently in early development and will be the next generation a
 - Adding a staff chat within the admin panel for mods to communicate
 - Adding various webhooks for Discord (staff chats, admin actions, etc.)
 - Adding a built-in ban appeal form for Pxls Rust
-- Not letting this project sit for years and being completely untouched (cough cough *Pxls Admin*
+- Not letting this project sit for years and being completely untouched (cough cough *Pxls Admin*)
