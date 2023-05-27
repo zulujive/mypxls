@@ -14,3 +14,6 @@ This project is currently in early development and will be the next generation a
 - Adding various webhooks for Discord (staff chats, admin actions, etc.)
 - Adding a built-in ban appeal form for Pxls Rust
 - Not letting this project sit for years and being completely untouched (cough cough *Pxls Admin*)
+
+## Roadmap
+This project is still in its infancy and it's hard to even know exactly what will and won't be implemented in this first release. The main focus will be getting the Pxls database connected and ready as this is vital to creating a proper backend. Once the database has been properly configured, a system of authentication using session tokens from Pxls will be implemented. From there, a simple UI will be developed that gives the barebones functionality to the admin panel. As the project progresses, many API endpoints will be developed so as to allow for an increasingly diverse set of integrations.
