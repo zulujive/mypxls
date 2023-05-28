@@ -10,14 +10,15 @@
     <title>myPxls</title>
     <style>
         body {
-            background-color: purple;
-            color: white;
+            background-color: #232323;
+            color: #ffffff;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
         }
         .post {
-            background-color: rgb(34, 13, 51);
+            background-color: #ff2d20;
             padding: 10px;
             margin: 10px;
+            border-radius: 5px;
         }
         .title {
             margin-left: 1rem;
@@ -25,6 +26,11 @@
         .postCreate {
             margin-bottom: 1rem;
             margin-left: 1rem;
+        }
+        .primaryContainer {
+            margin-bottom: 1rem;
+            border: 3px solid #ff2d20;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -36,7 +42,7 @@
         <button style="margin-bottom: 1rem; float: right;">Logout</button>
     </form>
 
-    <div style="border: 3px solid black;">
+    <div class="primaryContainer">
         <h2 class="title">Create a New Post</h2>
         <form class="postCreate" action="/create-post" method="POST">
             @csrf
@@ -46,7 +52,7 @@
         </form>
     </div>
 
-    <div style="border: 3px solid black;">
+    <div class="primaryContainer">
         <h2 class="title">Your Posts</h2>
         @foreach($posts as $post)
         <div class="post">
@@ -64,7 +70,7 @@
         @endforeach
     </div>
 
-    <div style="border: 3px solid black;">
+    <div class="primaryContainer">
         <h2 class="title">All Posts</h2>
         @foreach($allPosts as $post)
         <div class="post">
