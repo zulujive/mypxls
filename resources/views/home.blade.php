@@ -12,6 +12,7 @@
         body {
             background-color: purple;
             color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
         }
         .post {
             background-color: rgb(34, 13, 51);
