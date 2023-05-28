@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/zulujive/mypxls/blob/main/myPxlsOrange.png?raw=true" width="300" alt="Pxls.space Logo">
+    <img src="https://github.com/zulujive/mypxls/blob/main/myPxlsOrange(1).png?raw=true" width="300" alt="Pxls.space Logo">
     <!-- <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" alt="Laravel Logo"> -->
 </p>
 
