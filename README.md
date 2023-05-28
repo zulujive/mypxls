@@ -1,4 +1,7 @@
-<p align="center"><a href="https://pxls.space/" target="_blank"><img src="https://camo.githubusercontent.com/ed832b7770534de93841635022b70ea598acfefdf73bea27131983c2055a46a3/68747470733a2f2f692e696d6775722e636f6d2f4b376a31344c4c2e706e67" width="300" alt="Pxls.space Logo"></a><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" alt="Laravel Logo"></a></p>
+<p align="center">
+    <img src="https://camo.githubusercontent.com/ed832b7770534de93841635022b70ea598acfefdf73bea27131983c2055a46a3/68747470733a2f2f692e696d6775722e636f6d2f4b376a31344c4c2e706e67" width="300" alt="Pxls.space Logo">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" alt="Laravel Logo">
+</p>
 
 ## PHP myPxls Admin
 This project is currently in early development and will be the next generation admin panel for Pxls.space instances and will be configured to work with Rust instances as well.
