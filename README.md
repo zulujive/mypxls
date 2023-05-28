@@ -42,11 +42,15 @@ composer install
 ```
 3. Duplicate the ".env.example" file as ".env"
 4. Edit the settings within the .env file to work with your instance
-5. Use the command:
+5. Get the database tables working with the command:
+```
+php artisan migrate
+```
+7. Use the command:
 ```
 php artisan key:generate
 ```
-6. Start the server at port 8000 with:
+8. Start the server at port 8000 with:
 ```
 php artisan serve
 ```
