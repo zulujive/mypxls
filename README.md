@@ -27,6 +27,9 @@ This is NOT intended for production yet. Please use PxlsAdmin for production unt
     - PHP mySQL
 - Node.js (optional, but recommended)
 
+### Notes
+Do be aware that the application will show errors by default. Always disable this in production to prevent clients from reading sensitive server data.
+
 ### Setting Up the Server
 1. In the folder of your choice, clone the repository from GitHub
 2. Open the folder "myPxls" and use the command:
