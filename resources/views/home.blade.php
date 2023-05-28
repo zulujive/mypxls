@@ -13,6 +13,18 @@
             background-color: purple;
             color: white;
         }
+        .post {
+            background-color: rgb(34, 13, 51);
+            padding: 10px;
+            margin: 10px;
+        }
+        .title {
+            margin-left: 1rem;
+        }
+        .postCreate {
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -24,19 +36,19 @@
     </form>
 
     <div style="border: 3px solid black;">
-        <h2>Create a New Post</h2>
-        <form action="/create-post" method="POST">
+        <h2 class="title">Create a New Post</h2>
+        <form class="postCreate" action="/create-post" method="POST">
             @csrf
-            <input type="text" name="title" placeholder="post title">
-            <textarea name="body" placeholder="body content..."></textarea>
+            <input type="text" name="title" placeholder="post title"><br>
+            <textarea name="body" placeholder="body content..."></textarea><br>
             <button>Save Post</button>
         </form>
     </div>
 
     <div style="border: 3px solid black;">
-        <h2>Your Posts</h2>
+        <h2 class="title">Your Posts</h2>
         @foreach($posts as $post)
-        <div style="background-color: rgb(34, 13, 51); padding: 10px; margin: 10px;">
+        <div class="post">
             <h3>{{$post['title']}} by {{$post->user->name}}</h3>
             {{$post['body']}}
             <div style="display:flex; align-content:center; margin-top: 10px;">
@@ -52,15 +64,17 @@
     </div>
 
     <div style="border: 3px solid black;">
-        <h2>All Posts</h2>
+        <h2 class="title">All Posts</h2>
         @foreach($allPosts as $post)
-        <div style="background-color: gray; padding: 10px; margin: 10px;">
+        <div class="post">
             <h3>{{$post['title']}} by {{$post->user->name}}</h3>
             {{$post['body']}}
         </div>
         @endforeach
     </div>
 
+
+    <!-- FOR LOGGED OUT USERS -->
     @else
     <div style="border: 3px solid black;">
         <h2>Register</h2>
