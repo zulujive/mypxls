@@ -8,14 +8,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myPxls</title>
+    <style>
+        body {
+            background-color: purple;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
     @auth
-    <p>Congrats, you are logged in</p>
     <form action="/logout" method="POST">
         @csrf
-        <button>Logout</button>
+        <button style="margin-bottom: 1rem; float: right;">Logout</button>
     </form>
 
     <div style="border: 3px solid black;">
@@ -35,7 +40,7 @@
             <h3>{{$post['title']}} by {{$post->user->name}}</h3>
             {{$post['body']}}
             <div style="display:flex; align-content:center; margin-top: 10px;">
-                <p style="margin-right:5px;margin-top:0;"><a href="/edit-post/{{$post->id}}">Edit</a></p>
+                <p style="margin-right:5px;margin-top:0;"><a style="color: white; align-content: bottom;" href="/edit-post/{{$post->id}}">Edit</a></p>
                 <form action="/delete-post/{{$post->id}}" method="POST">
                     @csrf
                     @method('DELETE')
